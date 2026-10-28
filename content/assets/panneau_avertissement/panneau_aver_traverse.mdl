@@ -1,0 +1,35 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 1.73137, 1.26046, 2.88839, },
+			bbMin = { -1.74717, -1.20179, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 1.73927, 1.23112, 1.4442, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/assets/abri_quai/mat/abri_type_1_sm.mtl", },
+							mesh = "/assets/abri_quai/msh/panneau_aver_traverse_lod0.msh",
+							name = "panneau_aver_traverse",
+							transf = { 1, 0, 0, 0, 0, 1, 1.62921e-07, 0, 0, -1.62921e-07, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 250,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

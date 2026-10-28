@@ -1,0 +1,375 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 21.2, 0.375, 15.6168, },
+			bbMin = { -21.2, -25.81, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 21.2, 13.0925, 7.80839, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -12.7175, 7.80839, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/beton.mtl", "mat/tuiles.mtl", "mat/toiture_metal.mtl", },
+							mesh = "msh/gare_lod0.msh",
+							name = "ancenis",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -5.72, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/orange_jointure_ardoise.mtl", },
+							mesh = "msh/jointures_ardoises_lod0.msh",
+							name = "jointures_ardoises",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -5.72, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/brique.mtl", "mat/orange_jointure_ardoise.mtl", },
+							mesh = "msh/cheminees_lod0.msh",
+							name = "cheminees",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -5.72, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/toiture_metal.mtl", },
+							mesh = "msh/details_lod0.msh",
+							name = "details",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -5.72, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/beton.mtl", "mat/toiture_metal.mtl", },
+							mesh = "msh/moulures_lod0.msh",
+							name = "moulures",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -5.72, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/gris.mtl", },
+							mesh = "msh/cadres_fenetres_lod0.msh",
+							name = "cadres_fenetres",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -5.72, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/details_fenetres.mtl", },
+							mesh = "msh/fentres_lod0.msh",
+							name = "fentres",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -5.72, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/toiture_metal.mtl", },
+							mesh = "msh/gouttieres_lod0.msh",
+							name = "gouttieres",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -5.72, 0.8, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/shared/horloges_sncf/mat/horloge_sncf_bodet_casquette.mtl", },
+									mesh = "/shared/horloges_sncf/msh/cadre_horloge_lod0.msh",
+									name = "horloge",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/shared/horloges_sncf/mat/accroche_et_mat_horloge_sncf.mtl", },
+									mesh = "/shared/horloges_sncf/msh/accroche_murale_horloge_sncf_lod0.msh",
+									name = "accroche_murale_horloge",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										seconds = { 
+											params = { 
+												id = "/shared/horloges_sncf/ani/seconds/era_c_seconds_small_1.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "/shared/horloges_sncf/mat/horloge_sncf_bodet_casquette.mtl", },
+									mesh = "/shared/horloges_sncf/msh/trotteuse_lod0.msh",
+									name = "trotteuse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.17, 2.5, 1, },
+								},
+								{ 
+									animations = { 
+										minutes = { 
+											params = { 
+												id = "/shared/horloges_sncf/ani/minutes/era_c_minutes_small_1.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "/shared/horloges_sncf/mat/horloge_sncf_bodet_casquette.mtl", },
+									mesh = "/shared/horloges_sncf/msh/minutes_lod0.msh",
+									name = "minutes",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.17, 2.5, 1, },
+								},
+								{ 
+									animations = { 
+										hours = { 
+											params = { 
+												id = "/shared/horloges_sncf/ani/hours/era_c_hours_small_1.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "/shared/horloges_sncf/mat/horloge_sncf_bodet_casquette.mtl", },
+									mesh = "/shared/horloges_sncf/msh/heures_lod0.msh",
+									name = "heures",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.17, 2.5, 1, },
+								},
+								{ 
+									animations = { 
+										seconds = { 
+											params = { 
+												id = "/shared/horloges_sncf/ani/seconds/era_c_seconds_small_1.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "/shared/horloges_sncf/mat/horloge_sncf_bodet_casquette.mtl", },
+									mesh = "/shared/horloges_sncf/msh/trotteuse_lod0.msh",
+									name = "trotteuse",
+									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0.16, 2.5, 1, },
+								},
+								{ 
+									animations = { 
+										minutes = { 
+											params = { 
+												id = "/shared/horloges_sncf/ani/minutes/era_c_minutes_small_1.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "/shared/horloges_sncf/mat/horloge_sncf_bodet_casquette.mtl", },
+									mesh = "/shared/horloges_sncf/msh/minutes_lod0.msh",
+									name = "minutes",
+									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0.16, 2.5, 1, },
+								},
+								{ 
+									animations = { 
+										hours = { 
+											params = { 
+												id = "/shared/horloges_sncf/ani/hours/era_c_hours_small_1.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "/shared/horloges_sncf/mat/horloge_sncf_bodet_casquette.mtl", },
+									mesh = "/shared/horloges_sncf/msh/heures_lod0.msh",
+									name = "heures",
+									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0.16, 2.5, 1, },
+								},
+							},
+							name = "GRP_horloge_1",
+							transf = { 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1, 0, 0, 0.87, 3.2, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/shared/horloges_sncf/mat/horloge_sncf_bodet_carmillon.mtl", },
+									mesh = "/shared/horloges_sncf/msh/cadre_horloge_simple_lod0.msh",
+									name = "horloge",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										seconds = { 
+											params = { 
+												id = "/shared/horloges_sncf/ani/seconds/era_c_seconds_small_1.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "/shared/horloges_sncf/mat/horloge_sncf_bodet_casquette.mtl", },
+									mesh = "/shared/horloges_sncf/msh/trotteuse_lod0.msh",
+									name = "trotteuse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.17, 2.5, 1, },
+								},
+								{ 
+									animations = { 
+										minutes = { 
+											params = { 
+												id = "/shared/horloges_sncf/ani/minutes/era_c_minutes_small_1.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "/shared/horloges_sncf/mat/horloge_sncf_bodet_casquette.mtl", },
+									mesh = "/shared/horloges_sncf/msh/minutes_lod0.msh",
+									name = "minutes",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.17, 2.5, 1, },
+								},
+								{ 
+									animations = { 
+										hours = { 
+											params = { 
+												id = "/shared/horloges_sncf/ani/hours/era_c_hours_small_1.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "/shared/horloges_sncf/mat/horloge_sncf_bodet_casquette.mtl", },
+									mesh = "/shared/horloges_sncf/msh/heures_lod0.msh",
+									name = "heures",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.17, 2.5, 1, },
+								},
+							},
+							name = "GRP_horloge_2",
+							transf = { 1.4, 0, 0, 0, 0, 1.4, 0, 0, 0, 0, 1.4, 0, 0, -11.77, 1.75, 1, },
+						},
+						{ 
+							materials = { "/shared/support.mtl", },
+							mesh = "msh/support_ancenis_lod0.msh",
+							name = "support",
+							transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/beton.mtl", "mat/tuiles.mtl", "mat/toiture_metal.mtl", },
+							mesh = "msh/gare_lod0.msh",
+							name = "ancenis",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -5.72, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/brique.mtl", "mat/orange_jointure_ardoise.mtl", },
+							mesh = "msh/cheminees_lod0.msh",
+							name = "cheminees",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -5.72, 0.8, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 750,
+			},
+		},
+		metadata = { 
+			transportNetworkProvider = { 
+				laneLists = {
+					{ 
+						linkable = true,
+						nodes = {
+							{
+								{ 3.6, -25.85, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 3.6, -20.1, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 3.6, -20.1, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 3.6, 0, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -5.4, -25.85, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -5.5, -20.1, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -5.5, -20.1, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -7.8, -12.7, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -7.75, -12.7, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -19.6, -12.7, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -19.6, -12.65, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -19.6, 0, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 11.25, -25.85, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 11.2, -20.1, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 11.2, -20.1, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 13.65, -12.55, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 13.65, -12.55, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 19.55, -12.55, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 19.55, -12.55, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 19.55, 0, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+						},
+						speedLimit = 20,
+						transportModes = { "PERSON", },
+					},
+				},
+				runways = { },
+				terminals = { },
+			},
+		},
+		version = 2,
+	}
+end

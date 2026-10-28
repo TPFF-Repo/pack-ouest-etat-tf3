@@ -1,0 +1,55 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 1.83724, 1.18045, 2.31216, },
+			bbMin = { -1.83724, -1.17642, -7.15256e-07, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 1.83724, 1.17844, 1.15608, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/abri_generique/socle_abri.mtl", "mat/abri_generique/abri.mtl", "mat/abri_generique/toit_abri.mtl", },
+							mesh = "msh/abri_generique/abri_base_m_lod0.msh",
+							name = "abri_base_m",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/abri_generique/pan_abri.mtl", },
+							mesh = "msh/abri_generique/pan_nouille_lod0.msh",
+							name = "pan_nouille",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 900,
+			},
+		},
+		metadata = { 
+			labelList = { 
+				labels = {
+					{ 
+						alignment = "CENTER",
+						childId = "",
+						color = { 1, 1, 1, },
+						size = { 11.95, 1.5, },
+						transf = { 0.1, 0, 0, 0, 0, -0.00296662, 0.099956, 0, 0, -0.099956, -0.00296662, 0, -0.82, -0.9, 1.99, 1, },
+						type = "NAME",
+						verticalAlignment = "CENTER",
+					},
+				},
+			},
+		},
+		version = 2,
+	}
+end

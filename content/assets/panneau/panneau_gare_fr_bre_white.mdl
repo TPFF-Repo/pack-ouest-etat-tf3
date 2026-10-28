@@ -1,0 +1,35 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 1.28864, 0.00951705, 0.310655, },
+			bbMin = { -1.28864, -0.00951705, -0.310654, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 1.28864, 0.00951705, 0.310654, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/panneau_gare_fr_bre_white/panneau.mtl", },
+							mesh = "msh/panneau_gare_fr_bre_white/panneau_lod0.msh",
+							name = "panneau",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, -0.310654, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 300,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

@@ -1,0 +1,41 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 0.02, 0.0207163, 3.68, },
+			bbMin = { -0.1, -1.61, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 0.75, 0.0175, 0.2, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/panneau_indicateur_sortie/panneau_indicateur.mtl", },
+							mesh = "msh/panneau_indicateur_sortie/panneau_indicateur_sortie_lod0.msh",
+							name = "panneau_indicateur_sortie",
+							transf = { 1, 0, 0, 0, 0, 1, 1.62921e-07, 0, 0, -1.62921e-07, 1, 0, -0.790518, 0.0207162, 3.08482, 1, },
+						},
+						{ 
+							materials = { "/shared/poteau_sncf_new/mat/poteau_sncf_new.mtl", },
+							mesh = "/shared/poteau_sncf_new/msh/poteau_lod0.msh",
+							name = "poteau",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0.000306128, -0.000562115, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 250,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

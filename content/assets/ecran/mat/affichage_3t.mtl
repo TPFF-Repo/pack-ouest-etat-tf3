@@ -1,0 +1,39 @@
+function data()
+return { 
+		__version = "",
+		order = 0,
+		params = { 
+			light_receiver = { 
+				fragmentProperties = {
+					{ 
+						isLegacyMaterial = true,
+						lightMask = 2,
+					},
+				},
+			},
+			map_albedo = { 
+				fragmentSamplers = { 
+					albedoTex = { 
+						fileName = "tex/affichage_3t_albedo_opacity.dds",
+						scaleDownAllowed = false,
+						type = "TWOD",
+						wrapS = "REPEAT",
+						wrapT = "REPEAT",
+					},
+				},
+			},
+			map_metal_gloss_ao = { 
+				fragmentSamplers = { 
+					metalGlossAoTex = { 
+						fileName = "tex/affichage_metal_gloss_ao.dds",
+						scaleDownAllowed = false,
+						type = "TWOD",
+						wrapS = "REPEAT",
+						wrapT = "REPEAT",
+					},
+				},
+			},
+		},
+		type = "PHYSICAL",
+	}
+end

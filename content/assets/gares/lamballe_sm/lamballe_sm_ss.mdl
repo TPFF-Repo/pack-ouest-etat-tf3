@@ -1,0 +1,165 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 23.7, 0, 10, },
+			bbMin = { -29.9, -18.85, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 26.8, 9.425, 5, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.1, -9.425, 5, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/assets/gares/guingamp_am/mat/toit_metal.mtl", "/assets/gares/guingamp_am/mat/toit_haut.mtl", "/assets/gares/guingamp_am/mat/toit_bas.mtl", "/assets/gares/guingamp_am/mat/goutierre.mtl", "/assets/gares/guingamp_am/mat/pierre.mtl", "/assets/gares/guingamp_am/mat/crepi2.mtl", "/assets/gares/guingamp_am/mat/fenetre_contour.mtl", "/assets/gares/guingamp_am/mat/fenetre.mtl", "/assets/gares/guingamp_am/mat/soutien.mtl", "/assets/gares/guingamp_am/mat/metal.mtl", },
+							mesh = "msh/lamballe_sm_lod0.msh",
+							name = "LamballeSM",
+							transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, -0.97, 0.8, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/assets/gares/guingamp_am/mat/toit_metal.mtl", "/assets/gares/guingamp_am/mat/toit_haut.mtl", "/assets/gares/guingamp_am/mat/toit_bas.mtl", "/assets/gares/guingamp_am/mat/goutierre.mtl", "/assets/gares/guingamp_am/mat/pierre.mtl", "/assets/gares/guingamp_am/mat/crepi2.mtl", "/assets/gares/guingamp_am/mat/fenetre_contour.mtl", "/assets/gares/guingamp_am/mat/fenetre.mtl", "/assets/gares/guingamp_am/mat/soutien.mtl", "/assets/gares/guingamp_am/mat/metal.mtl", },
+							mesh = "msh/lamballe_sm_lod1.msh",
+							name = "LamballeSM",
+							transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, -0.97, 0.8, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 750,
+			},
+		},
+		metadata = { 
+			transportNetworkProvider = { 
+				laneLists = {
+					{ 
+						linkable = true,
+						nodes = {
+							{
+								{ 0, -19.2, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 0, -15.25, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 0, -15.25, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -1.45, 0, 0.85, },
+								{ 1.45, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -5.5, -19.2, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -5.5, -15.25, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -5.5, -15.25, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -7.75, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -7.75, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -28.65, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -28.65, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -28.65, 0, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 5.5, -19.2, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 5.5, -15.25, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 5.5, -15.25, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 7.75, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 7.75, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 22, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 22, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 22, 0, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+						},
+						speedLimit = 20,
+						transportModes = { "PERSON", },
+					},
+				},
+				runways = { },
+				terminals = { },
+			},
+		},
+		version = 2,
+	}
+end

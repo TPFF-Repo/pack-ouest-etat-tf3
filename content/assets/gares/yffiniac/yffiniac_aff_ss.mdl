@@ -1,0 +1,139 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 11.659999847412, 0.0099999997764826, 10.890000343323, },
+		bbMin = { -13.340000152588, -17.879999160767, -0.00011325581726851, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 9.6017551422119, 5.8943977355957, 5.044855594635, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+			{
+			node = {
+				children = {
+						{
+						materials = { "mat/toit.mtl", "mat/goutierre.mtl", "mat/faitage.mtl", "mat/brique_toit.mtl", "mat/crepi.mtl", "mat/pierre_blanche.mtl", "mat/pierre_base.mtl", "mat/metal.mtl", "mat/ouvertures/signe.mtl", "mat/bois_porte.mtl", },
+						mesh = "msh/batiment_lod0.msh",
+						name = "batiment",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.80000001192093, 1, },
+					},
+						{
+						materials = { "mat/plaque_sncf.mtl", },
+						mesh = "msh/plaque_sncf_lod0.msh",
+						name = "plaque_sncf",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.80000001192093, 1, },
+					},
+					},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+			{
+			node = {
+				children = {
+						{
+						materials = { "mat/toit.mtl", "mat/goutierre.mtl", "mat/faitage.mtl", "mat/brique_toit.mtl", "mat/crepi.mtl", "mat/pierre_blanche.mtl", "mat/pierre_base.mtl", "mat/metal.mtl", "mat/ouvertures/signe.mtl", "mat/bois_porte.mtl", },
+						mesh = "msh/batiment_lod1.msh",
+						name = "batiment",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.80000001192093, 1, },
+					},
+						{
+						materials = { "mat/plaque_sncf.mtl", },
+						mesh = "msh/plaque_sncf_lod0.msh",
+						name = "plaque_sncf",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.80000001192093, 1, },
+					},
+					},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 750,
+		},
+		},
+	metadata = {
+		transportNetworkProvider = {
+			laneLists = {
+				{
+					linkable = true,
+					nodes = {
+						{
+							{ 2.5, -17.700000762939, 0.050000000745058, },
+							{ 0, 0, 0.80000001192093, },
+							1.5,
+						},
+						{
+							{ 2.5, -16.10000038147, 0.85000002384186, },
+							{ 0, 0, 0.80000001192093, },
+							1.5,
+						},
+						{
+							{ 2.5, -16.10000038147, 0.85000002384186, },
+							{ 0, 0, 0.80000001192093, },
+							1.5,
+						},
+						{
+							{ 2.5, 0, 0.85000002384186, },
+							{ 1.4500000476837, 0, 0.80000001192093, },
+							1.5,
+						},
+						{
+							{ -1, -17.700000762939, 0.050000000745058, },
+							{ 0, 0, 0.80000001192093, },
+							1.5,
+						},
+						{
+							{ -1, -16.10000038147, 0.85000002384186, },
+							{ 0, 0, 0.80000001192093, },
+							1.5,
+						},
+						{
+							{ -1, -16.10000038147, 0.85000002384186, },
+							{ 0, 0, 0.80000001192093, },
+							1.5,
+						},
+						{
+							{ -1, -13.14999961853, 0.85000002384186, },
+							{ 0, 0, 0.80000001192093, },
+							1.5,
+						},						
+						{
+							{ -1, -13.14999961853, 0.85000002384186, },
+							{ 0, 0, 0.80000001192093, },
+							1.5,
+						},
+						{
+							{ -11.85000038147, -13.14999961853, 0.85000002384186, },
+							{ 1.4500000476837, 0, 0.80000001192093, },
+							1.5,
+						},
+						{
+							{ -11.85000038147, -13.14999961853, 0.85000002384186, },
+							{ 0, 0, 0.80000001192093, },
+							1.5,
+						},
+						{
+							{ -11.85000038147, 0, 0.85000002384186, },
+							{ 0, 0, 0.80000001192093, },
+							1.5,
+						},
+					},
+					speedLimit = 20,
+					transportModes = { "PERSON", },
+				},
+			},
+			runways = { },
+			terminals = { },
+		},
+	},
+	version = 2,
+}
+end

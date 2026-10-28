@@ -1,0 +1,32 @@
+function data()
+return { 
+		__version = "",
+		order = 0,
+		params = { 
+			emissive_scale = { 
+				fragmentProperties = {
+					{ 
+						emissiveScale = { 3, 3, 3, },
+					},
+				},
+			},
+			light_receiver = { 
+				fragmentProperties = {
+					{ 
+						isLegacyMaterial = true,
+						lightMask = 2,
+					},
+				},
+			},
+			map_emissive = { 
+				fragmentSamplers = { 
+					emissiveTex = { 
+						fileName = "tex/light_albedo_opacity.dds",
+						type = "TWOD",
+					},
+				},
+			},
+		},
+		type = "EMISSIVE",
+	}
+end

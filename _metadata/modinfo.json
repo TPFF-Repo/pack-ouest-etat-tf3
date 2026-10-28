@@ -1,0 +1,19 @@
+{
+    "authors": [
+        {
+            "name": "Syltheron",
+            "role": "CREATOR"
+        }
+    ],
+    "dependencies": [
+        "6426529"
+    ],
+    "description": "Station buildings, platform shelters, information signs and SNCF clocks in the style of the former Ouest-Etat railway company (Normandy, Pays de la Loire, Brittany). Station buildings are provided as modules for the modular rail station. The French Platforms mod is recommended for matching passenger platforms.",
+    "name": "Pack Ouest Etat",
+    "summary": "French Ouest-Etat style station buildings, platform shelters, signs and clocks.",
+    "tags": [
+        "Other Asset",
+        "Rail Station"
+    ],
+    "url": ""
+}

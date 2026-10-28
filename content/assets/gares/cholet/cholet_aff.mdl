@@ -1,0 +1,311 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 38.77, 0.1, 13.6, },
+			bbMin = { -38.77, -38.84, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 38.77, 19.47, 6.8, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -19.37, 6.8, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/portes_fenetres.mtl", },
+							mesh = "msh/portes_fenetres_lod0.msh",
+							name = "portes_fenetres",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/details.mtl", "mat/mur.mtl", },
+							mesh = "msh/cheminees_lod0.msh",
+							name = "cheminees",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/mur.mtl", "mat/toit.mtl", "mat/hall_verre.mtl", },
+							mesh = "msh/batiment_lod0.msh",
+							name = "batiment",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/details.mtl", "mat/vitres.mtl", },
+							mesh = "msh/details_lod0.msh",
+							name = "details",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{
+                        	materials = { "mat/details.mtl", "mat/ecrito.mtl", },
+                        	mesh = "msh/ecrito_cholet_lod0.msh",
+                        	name = "ecrito",
+                        	transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.80000001192093, 1, },
+                        },
+						{ 
+							materials = { "mat/moulures_gres.mtl", "mat/moulures_pierre.mtl", "mat/pierre.mtl", },
+							mesh = "msh/moulures_lod0.msh",
+							name = "moulures",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/metal.mtl", },
+							mesh = "msh/goutierres_lod0.msh",
+							name = "goutierres",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/shared/era_a_small_clock/mat/era_a_trainstation_assets.mtl", },
+									mesh = "/shared/era_a_small_clock/msh/era_a_small_clock_body_lod0.msh",
+									name = "era_a_small_clock_body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										minutes = { 
+											params = { 
+												id = "/shared/era_a_small_clock/ani/minutes/era_a_small_clock_minutes.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "/shared/era_a_small_clock/mat/era_a_trainstation_assets.mtl", },
+									mesh = "/shared/era_a_small_clock/msh/era_a_small_clock_minutes_lod0.msh",
+									name = "era_a_small_clock_minutes",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										hours = { 
+											params = { 
+												id = "/shared/era_a_small_clock/ani/hours/era_a_small_clock_hours.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "/shared/era_a_small_clock/mat/era_a_trainstation_assets.mtl", },
+									mesh = "/shared/era_a_small_clock/msh/era_a_small_clock_hours_lod0.msh",
+									name = "era_a_small_clock_hours",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/shared/era_a_small_clock/mat/era_a_trainstation_assets.mtl", },
+									mesh = "/shared/era_a_small_clock/msh/era_a_small_clock_backplate_lod0.msh",
+									name = "era_a_small_clock_backplate",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										minutes = { 
+											params = { 
+												id = "/shared/era_a_small_clock/ani/minutes/era_a_small_clock_minutes_2.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "/shared/era_a_small_clock/mat/era_a_trainstation_assets.mtl", },
+									mesh = "/shared/era_a_small_clock/msh/era_a_small_clock_minutes_2_lod0.msh",
+									name = "era_a_small_clock_minutes_2",
+									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										hours = { 
+											params = { 
+												id = "/shared/era_a_small_clock/ani/hours/era_a_small_clock_hours_2.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "/shared/era_a_small_clock/mat/era_a_trainstation_assets.mtl", },
+									mesh = "/shared/era_a_small_clock/msh/era_a_small_clock_hours_2_lod0.msh",
+									name = "era_a_small_clock_hours_2",
+									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/shared/era_a_small_clock/mat/era_a_trainstation_assets.mtl", },
+									mesh = "/shared/era_a_small_clock/msh/era_a_small_clock_backplate_2_lod0.msh",
+									name = "era_a_small_clock_backplate_2",
+									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "era_a_small_clock_grp",
+							transf = { 2.6, 0, 0, 0, 0, 2.6, 0, 0, 0, 0, 2.6, 0, 0, -9.9, 9.61, 1, },
+						},
+						{ 
+							materials = { "/shared/support.mtl", },
+							mesh = "msh/support_cholet_lod0.msh",
+							name = "support",
+							transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/portes_fenetres.mtl", },
+							mesh = "msh/portes_fenetres_lod0.msh",
+							name = "portes_fenetres",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/details.mtl", "mat/mur.mtl", },
+							mesh = "msh/cheminees_lod1.msh",
+							name = "cheminees",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/mur.mtl", "mat/toit.mtl", "mat/hall_verre.mtl", },
+							mesh = "msh/batiment_lod0.msh",
+							name = "batiment",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/metal.mtl", },
+							mesh = "msh/goutierres_lod0.msh",
+							name = "goutierres",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "/shared/support.mtl", },
+							mesh = "msh/support_cholet_lod0.msh",
+							name = "support",
+							transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 750,
+			},
+		},
+		metadata = { 
+			transportNetworkProvider = { 
+				laneLists = {
+					{ 
+						linkable = true,
+						nodes = {
+							{
+								{ 0, -38.85, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 0, -27.4, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 0, -27.4, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 0, 0, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -5.4, -38.85, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -5.5, -27.4, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -5.5, -27.4, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -7.8, -16.5, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -7.85, -16.5, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -33.5, -12.7, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -33.5, -12.65, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -33.5, 0, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 5.4, -38.85, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 5.5, -27.4, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 5.5, -27.4, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 7.8, -16.5, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 7.85, -16.5, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 33.5, -12.7, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 33.5, -12.65, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 33.5, 0, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+						},
+						speedLimit = 20,
+						transportModes = { "PERSON", },
+					},
+				},
+				runways = { },
+				terminals = { },
+			},
+		},
+		version = 2,
+	}
+end

@@ -1,0 +1,271 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 21.2, 0.281536, 12.06, },
+			bbMin = { -15.55, -16.22, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 18.375, 8.25077, 6.03, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.825, -7.96923, 6.03, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/crepi.mtl", "mat/portes.mtl", "mat/orange_jointure_ardoise.mtl", },
+							mesh = "msh/batiment_lod0.msh",
+							name = "batiment",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/autre.mtl", "mat/ardoises.mtl", },
+							mesh = "msh/toit_lod0.msh",
+							name = "toit",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/orange_jointure_ardoise.mtl", },
+							mesh = "msh/jointures_ardoises_lod0.msh",
+							name = "jointures_ardoises",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/moulures_blanches.mtl", "mat/moulures_pierres.mtl", "mat/moulures_pierres_2.mtl", },
+							mesh = "msh/moulures_lod0.msh",
+							name = "moulures",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/plaques_pontchateau_vierge.mtl", },
+							mesh = "msh/plaque_gare_lod0.msh",
+							name = "plaque_gare",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/affiches_pontchateau.mtl", },
+							mesh = "msh/affiches_lod0.msh",
+							name = "affiches",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/affiches_pontchateau.mtl", },
+							mesh = "msh/affiches_lod0.msh",
+							name = "affiches",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/goutierres.mtl", },
+							mesh = "msh/goutierres_lod0.msh",
+							name = "goutierres",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/horloge.mtl", },
+									mesh = "msh/horloge_pontchateau_lod0.msh",
+									name = "horloge_pontchateau",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/vitre.mtl", },
+									mesh = "msh/vitre_horloge_pontchateau_lod0.msh",
+									name = "vitre_horloge_pontchateau",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										minutes = { 
+											params = { 
+												id = "/shared/era_a_small_clock/ani/minutes/era_c_minutes_small_1.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/horloge.mtl", },
+									mesh = "msh/aig_minutes_lod0.msh",
+									name = "aig_minutes",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.54756, -9.19503, 4.08161, 1, },
+								},
+								{ 
+									animations = { 
+										hours = { 
+											params = { 
+												id = "/shared/era_a_small_clock/ani/hours/era_c_hours_small_1.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/horloge.mtl", },
+									mesh = "msh/aig_heures_lod0.msh",
+									name = "aig_heures",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.54756, -9.19503, 4.08161, 1, },
+								},
+							},
+							name = "GRP_horloge",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/crepi.mtl", "mat/portes.mtl", "mat/orange_jointure_ardoise.mtl", },
+							mesh = "msh/batiment_lod1.msh",
+							name = "batiment",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/autre.mtl", "mat/ardoises.mtl", },
+							mesh = "msh/toit_lod0.msh",
+							name = "toit",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/orange_jointure_ardoise.mtl", },
+							mesh = "msh/jointures_ardoises_lod1.msh",
+							name = "jointures_ardoises",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/moulures_blanches.mtl", "mat/moulures_pierres.mtl", "mat/moulures_pierres_2.mtl", },
+							mesh = "msh/moulures_lod1.msh",
+							name = "moulures",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/plaques_pontchateau_vierge.mtl", },
+							mesh = "msh/plaque_gare_lod0.msh",
+							name = "plaque_gare",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "mat/goutierres.mtl", },
+							mesh = "msh/goutierres_lod1.msh",
+							name = "goutierres",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/horloge.mtl", },
+									mesh = "msh/horloge_pontchateau_lod0.msh",
+									name = "horloge_pontchateau",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/vitre.mtl", },
+									mesh = "msh/vitre_horloge_pontchateau_lod0.msh",
+									name = "vitre_horloge_pontchateau",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										minutes = { 
+											params = { 
+												id = "/shared/era_a_small_clock/ani/minutes/era_c_minutes_small_1.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/horloge.mtl", },
+									mesh = "msh/aig_minutes_lod0.msh",
+									name = "aig_minutes",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.54756, -9.19503, 4.08161, 1, },
+								},
+								{ 
+									animations = { 
+										hours = { 
+											params = { 
+												id = "/shared/era_a_small_clock/ani/hours/era_c_hours_small_1.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/horloge.mtl", },
+									mesh = "msh/aig_heures_lod0.msh",
+									name = "aig_heures",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.54756, -9.19503, 4.08161, 1, },
+								},
+							},
+							name = "GRP_horloge",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 750,
+			},
+		},
+		metadata = { 
+			labelList = { 
+				labels = {
+					{ 
+						alignment = "CENTER",
+						childId = "",
+						color = { 1, 1, 1, },
+						size = { 23, 3.5, },
+						transf = { 0.1, 0, 0, 0, 0, 0, 0.1, 0, 0, -0.1, 0, 0, 4.98, -9.2, 4.7, 1, },
+						type = "NAME",
+						verticalAlignment = "CENTER",
+					},
+					{ 
+						alignment = "CENTER",
+						childId = "",
+						color = { 1, 1, 1, },
+						size = { 11, 2, },
+						transf = { -0.1, 0, 0, 0, 0, 0, 0.1, 0, 0, 0.1, 0, 0, 6.7, -0.06, 3.95, 1, },
+						type = "NAME",
+						verticalAlignment = "CENTER",
+					},
+				},
+			},
+			transportNetworkProvider = { 
+				laneLists = {
+					{ 
+						linkable = true,
+						nodes = {
+							{
+								{ 6.2, -15.95, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 6.2, -13.15, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 6.2, -13.15, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 6.2, 0, 0.85, },
+								{ 1.45, 0, 0.8, },
+								1.5,
+							},
+						},
+						speedLimit = 20,
+						transportModes = { "PERSON", },
+					},
+				},
+				runways = { },
+				terminals = { },
+			},
+		},
+		version = 2,
+	}
+end

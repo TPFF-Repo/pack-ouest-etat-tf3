@@ -1,0 +1,35 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 6.48377, 1.90577, 3.03714, },
+			bbMin = { -6.4835, -1.90562, 0.25, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 6.48363, 1.90569, 1.39357, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/assets/abri_quai/mat/abri.mtl", },
+							mesh = "/assets/abri_quai/msh/abri_lod0.msh",
+							name = "abri",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, -6.43736, 1.87431, 0.25, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 900,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

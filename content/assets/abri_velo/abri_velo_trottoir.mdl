@@ -1,0 +1,35 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 22.5, 5.04638, 0.25, },
+			bbMin = { -22.5, -7.95362, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 22.5, 6.5, 0.125, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/assets/abri_quai/mat/trottoir.mtl", },
+							mesh = "/assets/abri_quai/msh/trottoir_lod0.msh",
+							name = "trottoir",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, -1.45362, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 900,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

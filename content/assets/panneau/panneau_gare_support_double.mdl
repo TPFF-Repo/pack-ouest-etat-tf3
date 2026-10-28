@@ -1,0 +1,56 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 0.72, 0.0614085, 1.9, },
+			bbMin = { -0.720017, -0.0614084, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 0.720008, 0.0614085, 0.95, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/panneau_gare.mtl", },
+							mesh = "msh/panneau_gare_support_double/panneau_lod0.msh",
+							name = "panneau",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, -0.75, -0.0648903, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 300,
+			},
+		},
+		metadata = { 
+			labelList = { 
+				labels = {
+					{ 
+						childId = "",
+						color = { 1, 1, 1, },
+						renderMode = "EMISSIVE",
+						size = { 14, 1.2, },
+						transf = { 0.1, 0, 0, 0, 0, 0, 0.1, 0, 0, -0.1, 0, 0, -0.71, -0.07, 1.76, 1, },
+						type = "NAME",
+					},
+					{ 
+						childId = "",
+						color = { 1, 1, 1, },
+						renderMode = "EMISSIVE",
+						size = { 1.4, 0.12, },
+						transf = { -1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0.71, 0.07, 1.76, 1, },
+						type = "NAME",
+					},
+				},
+			},
+		},
+		version = 2,
+	}
+end

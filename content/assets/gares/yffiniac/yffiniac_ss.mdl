@@ -1,0 +1,125 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 11.66, 0.01, 10.89, },
+			bbMin = { -13.34, -17.88, -0.000113256, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 9.60176, 5.8944, 5.04486, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/toit.mtl", "mat/goutierre.mtl", "mat/faitage.mtl", "mat/brique_toit.mtl", "mat/crepi.mtl", "mat/pierre_blanche.mtl", "mat/pierre_base.mtl", "mat/metal.mtl", "mat/ouvertures/signe.mtl", "mat/bois_porte.mtl", },
+							mesh = "msh/batiment_lod0.msh",
+							name = "batiment",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/toit.mtl", "mat/goutierre.mtl", "mat/faitage.mtl", "mat/brique_toit.mtl", "mat/crepi.mtl", "mat/pierre_blanche.mtl", "mat/pierre_base.mtl", "mat/metal.mtl", "mat/ouvertures/signe.mtl", "mat/bois_porte.mtl", },
+							mesh = "msh/batiment_lod1.msh",
+							name = "batiment",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.8, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 750,
+			},
+		},
+		metadata = { 
+			transportNetworkProvider = { 
+				laneLists = {
+					{ 
+						linkable = true,
+						nodes = {
+							{
+								{ 2.5, -17.7, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 2.5, -16.1, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 2.5, -16.1, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 2.5, 0, 0.85, },
+								{ 1.45, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -1, -17.7, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -1, -16.1, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -1, -16.1, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -1, -13.15, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -1, -13.15, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -11.85, -13.15, 0.85, },
+								{ 1.45, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -11.85, -13.15, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -11.85, 0, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+						},
+						speedLimit = 20,
+						transportModes = { "PERSON", },
+					},
+				},
+				runways = { },
+				terminals = { },
+			},
+		},
+		version = 2,
+	}
+end

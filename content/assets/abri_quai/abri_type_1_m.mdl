@@ -1,0 +1,47 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 1.73137, 1.26046, 2.88839, },
+			bbMin = { -1.74717, -1.20179, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 1.73927, 1.23112, 1.4442, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/abri_type_1_sm.mtl", },
+							mesh = "msh/poteau_lod0.msh",
+							name = "poteau",
+							transf = { 0, -1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 1.649, 1.172, 2.64048, 1, },
+						},
+						{ 
+							materials = { "mat/abri_type_1_sm.mtl", },
+							mesh = "msh/toit_lod0.msh",
+							name = "toit",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, -0.0242373, -0.0102313, 2.85669, 1, },
+						},
+						{ 
+							materials = { "mat/abri_type_1_sm.mtl", },
+							mesh = "msh/armature_vitre_lod0.msh",
+							name = "armature_vitre",
+							transf = { -2.8213e-07, 1, 0, 0, -1, -2.8213e-07, 4.01339e-07, 0, 4.01339e-07, 0, 1, 0, -1.6765, 0, 2.62917, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1.5, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 900,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

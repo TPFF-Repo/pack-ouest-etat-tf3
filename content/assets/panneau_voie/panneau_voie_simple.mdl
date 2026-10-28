@@ -1,0 +1,56 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { -0.0375539, 0.0130002, 0.325, },
+			bbMin = { -0.627539, -0.0129999, -0.325, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 0.294992, 0.013, 0.325, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/panneau_voie.mtl", },
+							mesh = "msh/panneau_voie_lod0.msh",
+							name = "panneau_voie",
+							transf = { -1.62921e-07, -1, 0, 0, 1, -1.62921e-07, 0, 0, 0, 0, 1, 0, -0.0375539, 1.2087e-07, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 250,
+			},
+		},
+		metadata = { 
+			labelList = { 
+				labels = {
+					{ 
+						alignment = "CENTER",
+						childId = "",
+						color = { 0.634371, 0.885957, 0.980392, },
+						size = { 2.35, 2.35, },
+						transf = { 0.1, 0, 0, 0, 0, 0, 0.1, 0, 0, -0.1, 0, 0, -0.46, -0.02, -0.07, 1, },
+						type = "NAME",
+					},
+					{ 
+						alignment = "CENTER",
+						childId = "",
+						color = { 0.634371, 0.885957, 0.980392, },
+						size = { 2.35, 2.35, },
+						transf = { -0.1, 0, 0, 0, 0, 0, 0.1, 0, 0, 0.1, 0, 0, -0.22, 0.02, -0.07, 1, },
+						type = "NAME",
+					},
+				},
+			},
+		},
+		version = 2,
+	}
+end

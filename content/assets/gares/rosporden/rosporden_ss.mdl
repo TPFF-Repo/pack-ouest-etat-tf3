@@ -1,0 +1,309 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 27.13, 0.33941, 9.88737, },
+			bbMin = { -27.13, -25.8327, -1.82657e-05, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 22.4289, 13.0861, 4.9437, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/plastic.mtl", },
+									mesh = "msh/plastic_blanc_lod0.msh",
+									name = "plastic_blanc",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000171661, 1, },
+								},
+								{ 
+									materials = { "mat/terracota.mtl", },
+									mesh = "msh/terracota_lod0.msh",
+									name = "terracota",
+									transf = { 0, 0, 0.01, 0, -0.01, 0, 0, 0, 0, -0.01, 0, 0, -14.0966, -7.39436, -0.00524029, 1, },
+								},
+								{ 
+									materials = { "mat/crepi.mtl", },
+									mesh = "msh/crepi_lod0.msh",
+									name = "crepi",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000172138, 1, },
+								},
+								{ 
+									materials = { "mat/glass.mtl", },
+									mesh = "msh/glass_lod0.msh",
+									name = "glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000171661, 1, },
+								},
+								{ 
+									materials = { "mat/toit_haut.mtl", },
+									mesh = "msh/toit_haut_lod0.msh",
+									name = "toit_haut",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000172138, 1, },
+								},
+								{ 
+									materials = { "mat/toit.mtl", },
+									mesh = "msh/toit_lod0.msh",
+									name = "Toit",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000172138, 1, },
+								},
+								{ 
+									materials = { "mat/mur_brique.mtl", },
+									mesh = "msh/mur_lod0.msh",
+									name = "mur",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000172138, 1, },
+								},
+								{ 
+									materials = { "mat/metal.mtl", },
+									mesh = "msh/metal_lod0.msh",
+									name = "metal",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000172138, 1, },
+								},
+								{ 
+									materials = { "mat/metal.mtl", },
+									mesh = "msh/gris_lod0.msh",
+									name = "gris",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000172138, 1, },
+								},
+								{ 
+									materials = { "mat/light.mtl", },
+									mesh = "msh/light_lod0.msh",
+									name = "light",
+									transf = { 1.5418, 0, 0, 0, 0, 1.51838, 0.267731, 0, 0, -0.267731, 1.51838, 0, -18.7904, -4.303, -5.01053, 1, },
+								},
+								{ 
+									materials = { "mat/plastic_gris.mtl", },
+									mesh = "msh/plastic_gris_lod0.msh",
+									name = "plastic_gris",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000171661, 1, },
+								},
+								{ 
+									materials = { "mat/crepi_rose.mtl", },
+									mesh = "msh/crepi_rose_lod0.msh",
+									name = "crepi_rose",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000172138, 1, },
+								},
+							},
+							name = "Batiment",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, -5.02928, -0.0199027, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/plastic.mtl", },
+									mesh = "msh/plastic_blanc_lod1.msh",
+									name = "plastic_blanc",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000171661, 1, },
+								},
+								{ 
+									materials = { "mat/terracota.mtl", },
+									mesh = "msh/terracota_lod1.msh",
+									name = "terracota",
+									transf = { 0, 0, 0.01, 0, -0.01, 0, 0, 0, 0, -0.01, 0, 0, -14.0966, -7.39436, -0.00524029, 1, },
+								},
+								{ 
+									materials = { "mat/crepi.mtl", },
+									mesh = "msh/crepi_lod1.msh",
+									name = "crepi",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000172138, 1, },
+								},
+								{ 
+									materials = { "mat/glass.mtl", },
+									mesh = "msh/glass_lod1.msh",
+									name = "glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000171661, 1, },
+								},
+								{ 
+									materials = { "mat/toit_haut.mtl", },
+									mesh = "msh/toit_haut_lod0.msh",
+									name = "toit_haut",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000172138, 1, },
+								},
+								{ 
+									materials = { "mat/toit.mtl", },
+									mesh = "msh/toit_lod0.msh",
+									name = "Toit",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000172138, 1, },
+								},
+								{ 
+									materials = { "mat/mur_brique.mtl", },
+									mesh = "msh/mur_lod0.msh",
+									name = "mur",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000172138, 1, },
+								},
+								{ 
+									materials = { "mat/metal.mtl", },
+									mesh = "msh/metal_lod1.msh",
+									name = "metal",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000172138, 1, },
+								},
+								{ 
+									materials = { "mat/metal.mtl", },
+									mesh = "msh/gris_lod1.msh",
+									name = "gris",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000172138, 1, },
+								},
+								{ 
+									materials = { "mat/light.mtl", },
+									mesh = "msh/light_lod1.msh",
+									name = "light",
+									transf = { 1.5418, 0, 0, 0, 0, 1.51838, 0.267731, 0, 0, -0.267731, 1.51838, 0, -18.7904, -4.303, -5.01053, 1, },
+								},
+								{ 
+									materials = { "mat/plastic_gris.mtl", },
+									mesh = "msh/plastic_gris_lod1.msh",
+									name = "plastic_gris",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000171661, 1, },
+								},
+								{ 
+									materials = { "mat/crepi_rose.mtl", },
+									mesh = "msh/crepi_rose_lod1.msh",
+									name = "crepi_rose",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.5465, -0.85, -0.000172138, 1, },
+								},
+							},
+							name = "Batiment",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, -5.02928, -0.0199027, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 750,
+			},
+		},
+		metadata = { 
+			transportNetworkProvider = { 
+				laneLists = {
+					{ 
+						linkable = true,
+						nodes = {
+							{
+								{ 5.05, -25.8, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 5.05, -20, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 5.05, -20, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 5.05, 0, 0.85, },
+								{ 1.45, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -5.5, -25.8, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -5.5, -20, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -5.5, -20, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -7.75, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -7.75, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -25.55, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -25.55, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ -25.55, 0, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 11.2, -25.8, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 11.2, -20, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 11.2, -20, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 13.65, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 13.65, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 24.9, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 24.9, -10.75, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 24.9, 0, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+						},
+						speedLimit = 20,
+						transportModes = { "PERSON", },
+					},
+				},
+				runways = { },
+				terminals = { },
+			},
+		},
+		version = 2,
+	}
+end

@@ -1,0 +1,102 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 0.544531, 0.097861, 3.11713, },
+			bbMin = { -0.543727, -0.102139, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 0.544129, 0.1, 1.55857, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/panneau_gare_rb/panneau_gare_rb.mtl", },
+							mesh = "msh/panneau_gare_rb/poteau_lod0.msh",
+							name = "poteau",
+							transf = { 1, 0, 0, 0, 0, 1, 1.62921e-07, 0, 0, -1.62921e-07, 1, 0, 0, 0.0402743, 3.00104, 1, },
+						},
+						{ 
+							materials = { "mat/panneau_gare_rb/panneau_gare_rb.mtl", },
+							mesh = "msh/panneau_gare_rb/panneau_lod0.msh",
+							name = "panneau",
+							transf = { 1, 0, 0, 0, 0, 1, 1.62921e-07, 0, 0, -1.62921e-07, 1, 0, 0.000402098, 0.0402743, 2.99144, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 300,
+			},
+		},
+		metadata = { 
+			labelList = { 
+				labels = {
+					{ 
+						alignment = "CENTER",
+						childId = "",
+						color = { 1, 1, 1, },
+						filter = "CUSTOM",
+						fitting = "CUT",
+						params = { 
+							expr = "([A-Za-z0-9]+)?( ([A-Za-z0-9]+))?",
+							replace = "\\1",
+						},
+						size = { 10.6, 1.35, },
+						transf = { 0.1, 0, 0, 0, 0, 0, 0.1, 0, 0, -0.1, 0, 0, -0.53, -0.04, 2.97, 1, },
+						type = "NAME",
+					},
+					{ 
+						alignment = "CENTER",
+						childId = "",
+						color = { 1, 1, 1, },
+						filter = "CUSTOM",
+						fitting = "CUT",
+						params = { 
+							expr = "([A-Za-z0-9]+)?( ([A-Za-z0-9]+))?",
+							replace = "\\2",
+						},
+						size = { 10.6, 0.9, },
+						transf = { 0.1, 0, 0, 0, 0, 0, 0.1, 0, 0, -0.1, 0, 0, -0.53, -0.04, 2.88, 1, },
+						type = "NAME",
+					},
+					{ 
+						alignment = "CENTER",
+						childId = "",
+						color = { 1, 1, 1, },
+						filter = "CUSTOM",
+						fitting = "CUT",
+						params = { 
+							expr = "([A-Za-z0-9]+)?( ([A-Za-z0-9]+))?",
+							replace = "\\1",
+						},
+						size = { 10.6, 1.35, },
+						transf = { -0.1, 0, 0, 0, 0, 0, 0.1, 0, 0, 0.1, 0, 0, 0.53, 0.04, 2.97, 1, },
+						type = "NAME",
+					},
+					{ 
+						alignment = "CENTER",
+						childId = "",
+						color = { 1, 1, 1, },
+						filter = "CUSTOM",
+						fitting = "CUT",
+						params = { 
+							expr = "([A-Za-z0-9]+)?( ([A-Za-z0-9]+))?",
+							replace = "\\2",
+						},
+						size = { 10.6, 0.9, },
+						transf = { -0.1, 0, 0, 0, 0, 0, 0.1, 0, 0, 0.1, 0, 0, 0.53, 0.04, 2.88, 1, },
+						type = "NAME",
+					},
+				},
+			},
+		},
+		version = 2,
+	}
+end

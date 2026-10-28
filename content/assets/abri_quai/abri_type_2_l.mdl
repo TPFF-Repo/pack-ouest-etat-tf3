@@ -1,0 +1,47 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 3.44738, 1.27196, 2.88839, },
+			bbMin = { -3.44081, -1.19029, 0.0103307, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 3.4441, 1.23112, 1.43903, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/abri_type_2_sm.mtl", },
+							mesh = "msh/objet002_lod0.msh",
+							name = "objet002",
+							transf = { 0, -0.633223, 0, 0, 0, 0, -1, 0, 0.633223, 0, 0, 0, 2.93704, 1.18976, 2.64048, 1, },
+						},
+						{ 
+							materials = { "mat/abri_type_2_sm.mtl", },
+							mesh = "msh/toit001_lod0.msh",
+							name = "toit001",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, -1.71788, 0.00127356, 2.85669, 1, },
+						},
+						{ 
+							materials = { "mat/abri_type_2_sm.mtl", },
+							mesh = "msh/toit002_lod0.msh",
+							name = "toit002",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 1.72445, 0.00127356, 2.85669, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 900,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

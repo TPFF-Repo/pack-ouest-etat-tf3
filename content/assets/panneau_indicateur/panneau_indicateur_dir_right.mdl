@@ -1,0 +1,47 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { -0.0973792, 0.0186054, 3.23482, },
+			bbMin = { 1.05, -0.0163946, 2.93482, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 0.5, 0.0175, 0.15, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/panneau_indicateur_dir_right/panneau_indicateur.mtl", },
+							mesh = "msh/panneau_indicateur_dir_right/panneau_indicateur_dir_right_lod0.msh",
+							name = "panneau_indicateur_dir_right",
+							transf = { 1, 0, 0, 0, 0, 1, 1.62921e-07, 0, 0, -1.62921e-07, 1, 0, -0.53, 0.0186054, 3.08482, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 250,
+			},
+		},
+		metadata = { 
+			labelList = { 
+				labels = {
+					{ 
+						childId = "",
+						color = { 1, 1, 1, },
+						size = { 68.85, 14.05, },
+						transf = { -0.01, 0, 0, 0, 0, 0, 0.01, 0, 0, 0.01, 0, 0, 0.79, 0.03, 2.95, 1, },
+						type = "NAME",
+					},
+				},
+			},
+		},
+		version = 2,
+	}
+end

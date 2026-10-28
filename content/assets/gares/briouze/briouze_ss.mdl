@@ -1,0 +1,131 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 12.2, 0, 10.6, },
+			bbMin = { -12.2, -7.7, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 12.2, 7.95, 5.3, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -7.95, 5.3, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/crepi.mtl", "mat/toit.mtl", "mat/fenetres.mtl", "mat/vitres.mtl", },
+							mesh = "msh/batiment_lod0.msh",
+							name = "batiment",
+							transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, -3.83, 0, 1, },
+						},
+						{ 
+							materials = { "mat/brique.mtl", "mat/autre.mtl", "mat/gouttiere.mtl", "mat/nom.mtl", },
+							mesh = "msh/details_lod0.msh",
+							name = "details",
+							transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, -3.83, 0, 1, },
+						},
+						{ 
+							materials = { "mat/ex-horloge.mtl", },
+							mesh = "msh/ex-horloge_lod0.msh",
+							name = "ex-horloge",
+							transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, -3.83, 0, 1, },
+						},
+						{ 
+							materials = { "mat/balcons.mtl", },
+							mesh = "msh/balcons_lod0.msh",
+							name = "balcons",
+							transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, -3.83, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/crepi.mtl", "mat/toit.mtl", "mat/fenetres.mtl", "mat/vitres.mtl", },
+							mesh = "msh/batiment_lod0.msh",
+							name = "batiment",
+							transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, -3.83, 0, 1, },
+						},
+						{ 
+							materials = { "mat/ex-horloge.mtl", },
+							mesh = "msh/ex-horloge_lod0.msh",
+							name = "ex-horloge",
+							transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, -3.83, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 750,
+			},
+		},
+		metadata = { 
+			labelList = { 
+				labels = {
+					{ 
+						alignment = "CENTER",
+						childId = "",
+						color = { 1, 1, 1, },
+						size = { 2.52, 0.33, },
+						transf = { 0, -1.58, 0, 0, 0, 0, 1.58, 0, -1.58, 0, 0, 0, -7.37, -1.84, 6.43, 1, },
+						type = "STATION_NAME",
+						verticalAlignment = "CENTER",
+					},
+					{ 
+						alignment = "CENTER",
+						childId = "",
+						color = { 1, 1, 1, },
+						size = { 2.52, 0.33, },
+						transf = { 0, 1.58, 0, 0, 0, 0, 1.58, 0, 1.58, 0, 0, 0, 7.37, -5.82, 6.43, 1, },
+						type = "STATION_NAME",
+						verticalAlignment = "CENTER",
+					},
+				},
+			},
+			transportNetworkProvider = { 
+				laneLists = {
+					{ 
+						linkable = true,
+						nodes = {
+							{
+								{ -1.8, -14.25, 0.05, },
+								{ 0, 14.25, 0, },
+								1.5,
+							},
+							{
+								{ -1.8, 0, 0.05, },
+								{ 0, 14.25, 0, },
+								1.5,
+							},
+							{
+								{ 1.8, -14.25, 0.05, },
+								{ 0, 14.25, 0, },
+								1.5,
+							},
+							{
+								{ 1.8, 0, 0.05, },
+								{ 0, 14.25, 0, },
+								1.5,
+							},
+						},
+						speedLimit = 20,
+						transportModes = { "PERSON", },
+					},
+				},
+				runways = { },
+				terminals = { },
+			},
+		},
+		version = 2,
+	}
+end

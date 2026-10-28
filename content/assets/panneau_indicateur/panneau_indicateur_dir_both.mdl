@@ -1,0 +1,71 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 1.04, 0.0186054, 3.23482, },
+			bbMin = { -1.06, -0.0163946, 2.93482, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 0.5, 0.0175, 0.15, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/panneau_indicateur_dir_left/panneau_indicateur.mtl", },
+							mesh = "msh/panneau_indicateur_dir_left/panneau_indicateur_dir_left_lod0.msh",
+							name = "panneau_indicateur_dir_left",
+							transf = { 1, 0, 0, 0, 0, 1, 1.62921e-07, 0, 0, -1.62921e-07, 1, 0, 0.540951, 0.0186054, 3.08482, 1, },
+						},
+						{ 
+							materials = { "mat/panneau_indicateur_dir_right/panneau_indicateur.mtl", },
+							mesh = "msh/panneau_indicateur_dir_right/panneau_indicateur_dir_right_lod0.msh",
+							name = "panneau_indicateur_dir_right",
+							transf = { 1, 0, 0, 0, 0, 1, 1.62921e-07, 0, 0, -1.62921e-07, 1, 0, -0.53, 0.0186054, 3.08482, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 250,
+			},
+		},
+		metadata = { 
+			labelList = { 
+				labels = {
+					{ 
+						alignment = "RIGHT",
+						childId = "",
+						color = { 1, 1, 1, },
+						filter = "CUSTOM",
+						params = { 
+							expr = "([A-Za-z0-9]+)?( ([A-Za-z0-9]+))?",
+							replace = "\\1",
+						},
+						size = { 68.85, 14.05, },
+						transf = { 0.01, 0, 0, 0, 0, 0, 0.01, 0, 0, -0.01, 0, 0, 0.07, -0.02, 2.95, 1, },
+						type = "NAME",
+					},
+					{ 
+						childId = "",
+						color = { 1, 1, 1, },
+						filter = "CUSTOM",
+						params = { 
+							expr = "([A-Za-z0-9]+)?( ([A-Za-z0-9]+))?",
+							replace = "\\2",
+						},
+						size = { 68.85, 14.05, },
+						transf = { 0.01, 0, 0, 0, 0, 0, 0.01, 0, 0, -0.01, 0, 0, -0.79, -0.02, 2.95, 1, },
+						type = "NAME",
+					},
+				},
+			},
+		},
+		version = 2,
+	}
+end

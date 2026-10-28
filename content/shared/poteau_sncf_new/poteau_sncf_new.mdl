@@ -1,0 +1,35 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 0.102267, 0.0998493, 3.66669, },
+			bbMin = { -0.101654, -0.100974, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 0.10196, 0.100411, 1.83334, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/poteau_sncf_new.mtl", },
+							mesh = "msh/poteau_lod0.msh",
+							name = "poteau",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0.000306128, -0.000562115, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 300,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

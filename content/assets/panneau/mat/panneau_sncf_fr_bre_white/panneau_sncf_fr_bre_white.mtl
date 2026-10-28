@@ -1,0 +1,37 @@
+function data()
+return { 
+		__version = "",
+		order = 0,
+		params = { 
+			light_receiver = { 
+				fragmentProperties = {
+					{ 
+						isLegacyMaterial = true,
+						lightMask = 2,
+					},
+				},
+			},
+			map_albedo = { 
+				fragmentSamplers = { 
+					albedoTex = { 
+						fileName = "/assets/panneau/mat/tex/panneau_sncf_fr_bre_white_albedo_opacity.dds",
+						scaleDownAllowed = false,
+						type = "TWOD",
+						wrapS = "REPEAT",
+						wrapT = "REPEAT",
+					},
+				},
+			},
+			map_metal_gloss_ao = { 
+				fragmentSamplers = { 
+					metalGlossAoTex = { 
+						fileName = "::/placeholders/mat/tex/default_metal_gloss_ao.dds",
+						scaleDownAllowed = false,
+						type = "TWOD",
+					},
+				},
+			},
+		},
+		type = "PHYSICAL",
+	}
+end

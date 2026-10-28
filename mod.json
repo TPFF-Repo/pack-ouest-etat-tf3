@@ -1,0 +1,23 @@
+{
+  "modId": "pack_ouest_etat",
+  "revision": 18,
+  "severityAdd": "None",
+  "severityRemove": "Warning",
+  "visible": true,
+  "cosmetic": false,
+  "params": [],
+  "dependencies": [
+    {
+      "mod": {
+        "modId": "geonight_quais_fr",
+        "revisionMin": 1
+      },
+      "modInfo": {
+        "displayName": "Quais français"
+      },
+      "loadBefore": true,
+      "optional": true
+    }
+  ],
+  "incompatibilities": null
+}

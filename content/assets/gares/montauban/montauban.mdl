@@ -1,0 +1,97 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 8, 0, 11.43, },
+			bbMin = { -8.1, -14.13, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 8.05, 7.065, 5.715, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.0500002, -7.065, 5.715, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/toit.mtl", "mat/goutierre.mtl", "mat/faitage.mtl", "mat/brique_toit.mtl", "mat/crepi.mtl", "mat/pierre_blanche.mtl", "mat/pierre_base.mtl", "mat/metal.mtl", "mat/ouvertures/signe.mtl", },
+							mesh = "msh/batiment_lod0.msh",
+							name = "Batiment",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.2, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "/shared/support.mtl", },
+							mesh = "msh/support_montauban_lod0.msh",
+							name = "Support",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/toit.mtl", "mat/goutierre.mtl", "mat/faitage.mtl", "mat/brique_toit.mtl", "mat/crepi.mtl", "mat/pierre_blanche.mtl", "mat/pierre_base.mtl", "mat/metal.mtl", "mat/ouvertures/signe.mtl", },
+							mesh = "msh/batiment_lod1.msh",
+							name = "Batiment",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.2, 0, 0.8, 1, },
+						},
+						{ 
+							materials = { "/shared/support.mtl", },
+							mesh = "msh/support_montauban_lod0.msh",
+							name = "Support",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 750,
+			},
+		},
+		metadata = { 
+			transportNetworkProvider = { 
+				laneLists = {
+					{ 
+						linkable = true,
+						nodes = {
+							{
+								{ 0, -14.25, 0.05, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 0, -10.45, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 0, -10.45, 0.85, },
+								{ 0, 0, 0.8, },
+								1.5,
+							},
+							{
+								{ 0, 0, 0.85, },
+								{ 1.45, 0, 0.8, },
+								1.5,
+							},
+						},
+						speedLimit = 20,
+						transportModes = { "PERSON", },
+					},
+				},
+				runways = { },
+				terminals = { },
+			},
+		},
+		version = 2,
+	}
+end

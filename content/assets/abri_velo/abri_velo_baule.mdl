@@ -1,0 +1,75 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 22.7, 5.15, 5.21385, },
+			bbMin = { -22.65, -8.2, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 22.5, 5.00175, 2.60693, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/assets/abri_quai/mat/hauvent_abri.mtl", },
+							mesh = "/assets/abri_quai/msh/hauvent_abri_lod0.msh",
+							name = "hauvent_abri",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 4.46385, 1, },
+						},
+						{ 
+							materials = { "/assets/abri_quai/mat/trottoir.mtl", },
+							mesh = "/assets/abri_quai/msh/trottoir_lod0.msh",
+							name = "trottoir",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, -1.45362, 0, 1, },
+						},
+						{ 
+							materials = { "/assets/abri_quai/mat/abri.mtl", },
+							mesh = "/assets/abri_quai/msh/abri_lod0.msh",
+							name = "abri",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, -21.07, 4.81, 0.25, 1, },
+						},
+						{ 
+							materials = { "/assets/abri_quai/mat/abri.mtl", },
+							mesh = "/assets/abri_quai/msh/abri_lod0.msh",
+							name = "abri",
+							transf = { -1, -6.27833e-07, 0, 0, 0, 0, -1, 0, 6.27833e-07, -1, 0, 0, 8.24, 1.09, 0.25, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 500,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/assets/abri_quai/mat/trottoir.mtl", },
+							mesh = "/assets/abri_quai/msh/trottoir_lod0.msh",
+							name = "trottoir",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, -1.45362, 0, 1, },
+						},
+						{ 
+							materials = { "/assets/abri_quai/mat/abri.mtl", },
+							mesh = "/assets/abri_quai/msh/abri_lod0.msh",
+							name = "abri",
+							transf = { -1, -6.27833e-07, 0, 0, 0, 0, -1, 0, 6.27833e-07, -1, 0, 0, 8.24, 1.09, 0.25, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 500,
+				visibleTo = 900,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end

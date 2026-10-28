@@ -1,0 +1,58 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 0.2, 0.2, 2.55362, },
+			bbMin = { -1.00595, -0.2, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 0.602977, 0.2, 1.27681, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/panneau_fin_quai/panneau_fin_quai.mtl", },
+							mesh = "msh/panneau_fin_quai/panneau_lod0.msh",
+							name = "panneau",
+							transf = { 1, 0, 0, 0, 0, 1, 1.62921e-07, 0, 0, -1.62921e-07, 1, 0, -0.501476, 0, 1.32737, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 0, 1.3, 0, 0, -1.3, 0, 0, 0, 0, 0, 1.3, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 300,
+			},
+		},
+		metadata = { 
+			labelList = { 
+				labels = {
+					{ 
+						alignment = "CENTER",
+						childId = "",
+						color = { 1, 1, 1, },
+						size = { 8.1, 1.59, },
+						transf = { 0, -0.1, 0, 0, 0, 0, 0.1, 0, -0.1, 0, 0, 0, -0.04, -0.32, 3.07, 1, },
+						type = "NAME",
+						verticalAlignment = "CENTER",
+					},
+					{ 
+						alignment = "CENTER",
+						childId = "",
+						color = { 1, 1, 1, },
+						size = { 8.1, 1.59, },
+						transf = { 0, 0.1, 0, 0, 0, 0, 0.1, 0, 0.1, 0, 0, 0, 0.04, -1.14, 3.07, 1, },
+						type = "NAME",
+						verticalAlignment = "CENTER",
+					},
+				},
+			},
+		},
+		version = 2,
+	}
+end

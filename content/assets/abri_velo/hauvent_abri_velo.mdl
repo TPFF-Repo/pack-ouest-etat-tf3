@@ -1,0 +1,51 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 22.5, 5.00351, 5.21385, },
+			bbMin = { -22.5, -5, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 22.5, 5.00175, 2.60693, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/assets/abri_quai/mat/hauvent_abri.mtl", },
+							mesh = "/assets/abri_quai/msh/hauvent_abri_lod0.msh",
+							name = "hauvent_abri",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 4.46385, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/assets/abri_quai/mat/hauvent_abri.mtl", },
+							mesh = "/assets/abri_quai/msh/hauvent_abri_lod1.msh",
+							name = "hauvent_abri",
+							transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 4.46385, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 900,
+			},
+		},
+		metadata = { },
+		version = 2,
+	}
+end
